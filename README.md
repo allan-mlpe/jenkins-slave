@@ -4,7 +4,10 @@
 
 - Building locally, from whitin the Dockerfile directory:
 ```
-docker build -t jenkins-slave:$TAG
+docker build -t jenkins-slave:$TAG .
 ```
-where $TAG can be any tag chosen.
 
+- Preventing caching on build:
+```
+docker build --no-cache -t jenkins-slave:$TAG
+```
