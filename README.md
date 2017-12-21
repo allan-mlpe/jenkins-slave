@@ -17,3 +17,7 @@ docker build -t jenkins-slave:$TAG .
 ```
 docker build --no-cache -t jenkins-slave:$TAG
 ```
+
+# Docker Hub
+
+- [allanmlpe/jenkins-slave](https://hub.docker.com/r/allanmlpe/jenkins-slave/)
