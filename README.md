@@ -8,6 +8,12 @@
 
 # Instructions
 
+- Running a slave:
+
+```
+docker run -d allanmlpe/jenkins-slave:latest
+```
+
 - Building locally, from whitin the Dockerfile directory:
 ```
 docker build -t jenkins-slave:$TAG .
@@ -15,7 +21,7 @@ docker build -t jenkins-slave:$TAG .
 
 - Preventing caching on build:
 ```
-docker build --no-cache -t jenkins-slave:$TAG
+docker build --no-cache -t jenkins-slave:$TAG .
 ```
 
 # Docker Hub
