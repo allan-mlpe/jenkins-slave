@@ -1,0 +1,5 @@
+version: '3'
+services:
+  slave:
+    image: "allanmlpe/jenkins-slave:latest"
+    restart: always
