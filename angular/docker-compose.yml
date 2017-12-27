@@ -1,5 +1,5 @@
 version: '3'
 services:
   slave:
-    image: "allanmlpe/jenkins-slave:latest"
+    image: "allanmlpe/jenkins-slave:angular"
     restart: always
