@@ -1,5 +1,6 @@
 version: '3'
 services:
   slave:
+    build: .
     image: "allanmlpe/jenkins-slave:maven"
     restart: always
