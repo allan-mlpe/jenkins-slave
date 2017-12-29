@@ -24,6 +24,16 @@ docker build -t jenkins-slave:$TAG .
 docker build --no-cache -t jenkins-slave:$TAG .
 ```
 
+- Build imagem with docker-compose (add `--no-cache` option to prevent caching on build):
+```
+docker-compose build [--no-cache]
+```
+
+- Running a slave with docker-compose:
+```
+docker-compose up -d
+```
+
 # Docker Hub
 
 - [allanmlpe/jenkins-slave](https://hub.docker.com/r/allanmlpe/jenkins-slave/)
